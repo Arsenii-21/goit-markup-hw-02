@@ -1,0 +1,124 @@
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    background-color: #ffffff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #4D5AE5;
+}
+
+a {
+    color: #2E2F42;
+    text-decoration: none;
+}
+
+address a {
+    color: #434455;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin: 0 0 30px 0;
+}
+
+.hero-section {
+    background-color: #2E2F42;
+    padding: 120px 0;
+    text-align: center;
+}
+
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h3 {
+    color: #2E2F42;
+}
+
+p {
+    color: #434455;
+}
+
+.team-row {
+    background-color: #F4F4FD;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team-row li {
+    background-color: #F4F4FD;
+    text-align: center;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.team-row img {
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.portfolio-row {
+    background-color: #E7E9FC;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-row li {
+    background-color: #F4F4FD;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.portfolio-row img {
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #2E2F42;
+    text-align: center;
+    padding: 40px 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+footer .logo {
+    color: #E7E9FC;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer .logo span {
+    color: #4D5AE5;
+}
+
+footer p {
+    color: #E7E9FC;
+    margin: 0;
+}
