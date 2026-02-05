@@ -176,12 +176,15 @@ p {
     padding: 20px;
     border-radius: 4px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-list img {
     background-color: #F4F4FD;
     border-radius: 4px;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     display: block;
     margin-bottom: 10px;
 }
