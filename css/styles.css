@@ -112,6 +112,14 @@ h1 {
 }
 
 button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
@@ -121,8 +129,8 @@ button {
     letter-spacing: 0.04em;
 }
 
-button:hover,
-button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -188,14 +196,18 @@ p {
 
 footer {
     background-color: #2E2F42;
+}
+
+.footer {
+    background-color: #2E2F42;
     text-align: left;
 }
 
-footer .logo {
+.footer .logo {
     display: inline-block;
 }
 
-footer p {
+.footer-text {
     color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
