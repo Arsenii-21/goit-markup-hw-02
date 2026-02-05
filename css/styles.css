@@ -153,6 +153,7 @@ p {
 
 .team-list li {
     text-align: center;
+    background-color: #FFFFFF;
 }
 
 .team-list img {
@@ -183,7 +184,7 @@ footer .logo {
 }
 
 footer p {
-    color: #E7E9FC;
+    color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
