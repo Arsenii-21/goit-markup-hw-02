@@ -40,6 +40,7 @@ ul {
 }
 
 .nav-list {
+    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -63,6 +64,7 @@ address {
 }
 
 .address-list {
+    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -83,7 +85,6 @@ address {
 
 h1 {
     color: #FFFFFF;
-    margin: 0 0 30px 0;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -92,21 +93,17 @@ h1 {
 
 .hero-section {
     background-color: #2E2F42;
-    padding: 120px 0;
     text-align: center;
 }
 
 button {
     background-color: #4D5AE5;
     color: #FFFFFF;
-    padding: 10px 20px;
-    border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border: none;
 }
 
 button:hover,
@@ -120,6 +117,7 @@ h2 {
     line-height: 1.11;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 h3 {
@@ -138,70 +136,54 @@ p {
 }
 
 .features-list {
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .team-section {
     background-color: #F4F4FD;
-    padding: 20px 0;
 }
 
 .team-list {
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .team-list li {
-    background-color: #FFFFFF;
     text-align: center;
-    padding: 20px;
-    border-radius: 4px;
 }
 
 .team-list img {
-    background-color: #F4F4FD;
-    border-radius: 4px;
     display: block;
-    margin-bottom: 20px;
 }
 
 .portfolio-list {
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .portfolio-list li {
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 4px;
     text-align: left;
-    width: 360px;
 }
 
 .portfolio-list img {
-    background-color: #F4F4FD;
-    border-radius: 4px;
-    width: 360px;
-    height: auto;
     display: block;
-    margin-bottom: 10px;
 }
 
 footer {
     background-color: #2E2F42;
     text-align: center;
-    padding: 40px 0;
 }
 
 footer .logo {
     display: inline-block;
-    margin-bottom: 20px;
 }
 
 footer p {
     color: #E7E9FC;
-    margin: 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
