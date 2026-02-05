@@ -107,7 +107,7 @@ h1 {
 
 .hero-section {
     background-color: #2E2F42;
-    text-align: center;
+    text-align: left;
 }
 
 button {
@@ -187,7 +187,7 @@ p {
 
 footer {
     background-color: #2E2F42;
-    text-align: center;
+    text-align: left;
 }
 
 footer .logo {
